@@ -1,0 +1,23 @@
+.wrapper{
+    display: grid;
+    grid-template-areas:
+           'header header header'
+           'body body body'
+           'footer footer footer';
+   
+}
+
+.header
+{
+    grid-area: header;
+}
+
+.footer
+{
+    grid-area: footer;
+}
+.body
+{
+    grid-area: body;
+}
+
